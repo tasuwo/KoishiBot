@@ -1,6 +1,6 @@
 # KoishiBot
 
-Slack bot written in swift.
+Slack bot written in swift with [SwiftSlackBotter](https://github.com/tomohisa/SwiftSlackBotter)
 
 # Command
 
