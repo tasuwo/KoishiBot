@@ -39,7 +39,7 @@ func getKoishiResponse(userMessage: MessageEvent, bot: Bot) -> String? {
     } else if Regexp(".*こいし.*").isMatch(userMessage.text!) {
         return [
             "はーい♡",
-            "はろー♡" + bot.botInfo.usernameFor(userMessage.user) + "♡",
+            "はろー♡" + bot.botInfo.usernameFor(id: userMessage.user) + "♡",
         ].random()
     } else if Regexp(".*つらい|疲れ|つかれ|助けて|たすけて.*").isMatch(userMessage.text!) {
         return [
